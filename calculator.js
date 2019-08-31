@@ -1,10 +1,12 @@
-function add() {
-}
+  
+const add = (x, y) => x + y;
 
-function subtract() {
-}
+const subtract = (x, y) => x - y;
 
-function sum() {
-}
+const sum = (arr) => arr.reduce((total, num) => total + num, 0);
 
 module.exports = {add, subtract, sum}
+
+
+
+
